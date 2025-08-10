@@ -16,59 +16,42 @@ const Portfolio = () => {
   const experiences = [
     {
       company: "Current Position - Operator IT",
-      period: "2024 - Present",
+      period: "Februari - Juli 2025",
       role: "Server & Storage Operations",
       details: [
-        "Monitor 271 HPE servers dan XP8 Storage 24/7",
-        "Report monitoring setiap 4 jam & 6 jam ke Data Center",
-        "Handle ticket support untuk issue beginner hingga expert",
-        "Analisa server alerts (NIC, HBA, Memory, Disk)",
-        "Troubleshoot PSOD menggunakan ILO Amplifier",
-        "Collect data untuk AHS dan IML analysis"
+        "prose update.."
       ]
     },
     {
       company: "PT. Kaha Duta Sarana",
-      period: "September 2024",
+      period: "Agustus - September 2024",
       role: "Field Engineer",
       details: [
-        "Project RTA Guardian implementation",
-        "Linux backup & system cloning (Acronis)",
-        "Setup POS systems (Lenovo, BM3, VynaPOS)",
-        "Training kasir & peripheral configuration",
-        "Maintenance scanner, printer, cash drawer"
+        "prose update.."
       ]
     },
     {
-      company: "PT. Nutrifood Indonesia",
-      period: "Feb 2023 - Aug 2024",
+      company: "PT Nutrifood Indonesia & Aurora – Produksi dan Sablon",
+      period: "Februari 2023 - Agustus 2024",
       role: "Production Support",
       details: [
-        "Daily production line maintenance",
-        "Operator support & quality control",
-        "Shift scheduling & area cleaning protocols"
+        "prose update.."
       ]
     },
     {
       company: "PT. Mizan Media Utama",
-      period: "Aug - Nov 2022",
+      period: "Agustus - November 2022",
       role: "IT Support",
       details: [
-        "Troubleshooting printer & computer systems",
-        "Windows 7 & 10 installation",
-        "Setup 15 PCs untuk Book Fair event",
-        "Wireless CCTV installation"
+        "prose update.."
       ]
     },
     {
       company: "PPTIK - IoT Internship",
-      period: "Aug - Nov 2021",
-      role: "IoT Developer",
+      period: "Agustus - November 2021",
+      role: "IoT Engineer",
       details: [
-        "Developed Smart Watering system",
-        "IoT hardware design & assembly",
-        "Team collaboration via remote meetings",
-        "Final project presentation"
+        "prose update.."
       ]
     }
   ];
@@ -121,12 +104,12 @@ const Portfolio = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
-              IT Professional | Server Operations | System Administrator
+              Proses Update..
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full">
                 <Server className="w-5 h-5 text-purple-400" />
-                <span>271 Servers Monitoring</span>
+                <span>Servers Monitoring</span>
               </div>
               <div className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full">
                 <Database className="w-5 h-5 text-pink-400" />
@@ -162,9 +145,7 @@ const Portfolio = () => {
                   Teknik Informatika at Institut Teknologi Bisnis dan Swadharma. 
                 </p>
                 <p className="text-gray-300 mb-6">
-                  Specialized in server operations, managing 271 HPE servers and XP8 storage systems 
-                  with 24/7 monitoring responsibilities. Expert in troubleshooting, system administration, 
-                  and IoT development.
+                  Porses Update...
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <div className="flex items-center gap-2 text-purple-400">
@@ -180,7 +161,7 @@ const Portfolio = () => {
               <div className="space-y-4">
                 <div className="bg-slate-800/50 p-6 rounded-lg">
                   <h4 className="text-xl font-bold mb-2 text-purple-400">Current Focus</h4>
-                  <p className="text-gray-300">Server Operations & Infrastructure Management</p>
+                  <p className="text-gray-300">Proses Update..</p>
                 </div>
                 <div className="bg-slate-800/50 p-6 rounded-lg">
                   <h4 className="text-xl font-bold mb-2 text-pink-400">Education</h4>
@@ -248,7 +229,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* Contact Section with Clickable Buttons */}
       <section id="contact" className="py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -256,21 +237,36 @@ const Portfolio = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/50">
+              <a
+                href="https://wa.me/6285117344404"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/50 hover:border-purple-500/50 transition-all"
+              >
                 <Phone className="w-8 h-8 mx-auto mb-4 text-purple-400" />
                 <h3 className="text-xl font-bold mb-2">Phone</h3>
-                <p className="text-gray-300">081294754677</p>
-              </div>
-              <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/50">
+                <p className="text-gray-300">+6285117344404</p>
+              </a>
+              <a
+                href="mailto:aldialmsyahh@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/50 hover:border-pink-500/50 transition-all"
+              >
                 <Mail className="w-8 h-8 mx-auto mb-4 text-pink-400" />
                 <h3 className="text-xl font-bold mb-2">Email</h3>
                 <p className="text-gray-300">aldialmsyahh@gmail.com</p>
-              </div>
-              <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/50">
+              </a>
+              <a
+                href="https://linkedin.com/in/aldi-alamsyah-a0b7b322b"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/50 hover:border-blue-500/50 transition-all"
+              >
                 <Linkedin className="w-8 h-8 mx-auto mb-4 text-blue-400" />
                 <h3 className="text-xl font-bold mb-2">LinkedIn</h3>
                 <p className="text-gray-300">aldi-alamsyah-a0b7b322b</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -278,7 +274,7 @@ const Portfolio = () => {
 
       {/* Footer */}
       <footer className="bg-slate-900/50 py-8 text-center">
-        <p className="text-gray-400">© 2024 Aldi Alamsyah. Built with React & passion for technology.</p>
+        <p className="text-gray-400">© 2024 Aldi Alamsyah. Built with React & AI technology.</p>
       </footer>
     </div>
   );
