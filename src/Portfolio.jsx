@@ -274,7 +274,7 @@ const Portfolio = () => {
 
       {/* Footer */}
       <footer className="bg-slate-900/50 py-8 text-center">
-        <p className="text-gray-400">© 2024 Aldi Alamsyah. Built with React & AI technology.</p>
+        <p className="text-gray-400">©2025 Aldi Alamsyah. Built with React & AI technology.</p>
       </footer>
     </div>
   );
