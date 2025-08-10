@@ -154,7 +154,7 @@ const Portfolio = () => {
                   </div>
                   <div className="flex items-center gap-2 text-pink-400">
                     <Code className="w-5 h-5" />
-                    <span>Born July 5, 2003</span>
+                    <span>proses upadate..</span>
                   </div>
                 </div>
               </div>
